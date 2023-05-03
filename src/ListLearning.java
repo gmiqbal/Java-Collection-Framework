@@ -1,9 +1,8 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ArrayListLearning {
+public class ListLearning {
     public static void main(String[] args) {
         /**
          * creating studenId Arraylist that is able to expand unlimitedly as needed
@@ -14,7 +13,7 @@ public class ArrayListLearning {
          * while using ArrayList<Integer> allows you to use special features of ArrayList
          * but makes it harder to switch to another type of list.
          */
-        ArrayList<Integer> studentId = new ArrayList<>();
+        List<Integer> studentId = new java.util.LinkedList<Integer>();
 
         /**
          * elements can be added to the arraylist using dot add operator
